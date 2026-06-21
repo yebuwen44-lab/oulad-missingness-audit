@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the associated manuscript and the original OULAD dataset paper."
+title: "Auditing Missingness as Predictive Structure: Reproducibility Package"
+type: software
+version: 1.0.0
+date-released: 2026-06-21
+authors:
+  - family-names: Ye
+    given-names: Bowen
+    orcid: "https://orcid.org/0009-0009-4104-6260"
+  - family-names: Yao
+    given-names: Dengfeng
+    orcid: "https://orcid.org/0000-0003-3079-3227"
+  - family-names: Liu
+    given-names: Hongzhe
+    orcid: "https://orcid.org/0000-0003-2314-5272"
+  - family-names: Xu
+    given-names: Cheng
+    orcid: "https://orcid.org/0000-0003-4913-5371"
+repository-code: "TO_BE_ASSIGNED"
+abstract: "Code, processed analytical data, frozen result tables, and portable rerun workflows for a layered missingness representation and presentation-heterogeneity audit on OULAD."
+keywords:
+  - OULAD
+  - early dropout warning
+  - informative missingness
+  - presentation heterogeneity
+  - auditable machine learning

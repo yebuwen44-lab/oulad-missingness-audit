@@ -1,0 +1,32 @@
+{
+  "dataset": {
+    "rows": 32593,
+    "columns": 121,
+    "full_dropout_prevalence": 0.3116006504464149,
+    "active_week4_rows": 27538,
+    "active_week4_dropout_prevalence": 0.18552545573389498,
+    "module_presentation_groups": 22
+  },
+  "feature_counts_week4": {
+    "F1": 24,
+    "F1_median": 24,
+    "F2": 29,
+    "F3": 42,
+    "F4_all": 46,
+    "F4_structural_only": 43,
+    "F4_behavioral_only": 44,
+    "F4_delta_only": 43
+  },
+  "five_fold_auprc": {
+    "LightGBM": {"F1": 0.348836, "F1_median": 0.361925, "F2": 0.360647, "F3": 0.365496, "F4_all": 0.363142},
+    "LogisticRegression": {"F1": 0.341369, "F1_median": 0.351136, "F2": 0.351419, "F3": 0.352513, "F4_all": 0.353004},
+    "XGBoost": {"F1": 0.350274, "F1_median": 0.358723, "F2": 0.363152, "F3": 0.364334, "F4_all": 0.365830}
+  },
+  "logo_lightgbm_macro_auprc": {
+    "F1_median": 0.3007,
+    "F1_native": 0.2980,
+    "F2": 0.3024,
+    "F3": 0.3023
+  },
+  "claim_boundary": "The package documents bounded and model-dependent missingness value; it does not claim universal predictive superiority."
+}

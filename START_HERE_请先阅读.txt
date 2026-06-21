@@ -1,0 +1,18 @@
+OULAD 可复现性包使用顺序（v1.2）
+
+1. 双击 RUN_00_VERIFY_PACKAGE.bat。
+   此步骤改为使用 Windows 自带 PowerShell，不需要安装 Python。
+   如果最后显示 “All package integrity checks passed.”，说明数据、配置、冻结结果和哈希完整。
+
+2. 只有在需要重新跑实验时，才双击 RUN_01_CREATE_ENVIRONMENT.bat。
+   脚本会自动查找常见的 Python、Anaconda 或 Miniconda 安装位置；若电脑没有 Python，可选择由 Windows Package Manager 自动安装 Python 3.13。
+
+3. 五折主实验：RUN_02_GROUPKFOLD_MAIN.bat。
+   该步骤耗时较长，会重新训练多个模型。
+
+4. 22 组 LOGO 审计：RUN_03_LOGO_AUDIT.bat。
+   这是最耗时的步骤，可能需要较长时间，不要因为窗口暂时没有输出就强制关闭。
+
+5. SHAP 与描述性分析：RUN_04_INTERPRETABILITY.bat。
+
+results/frozen 是论文使用的冻结结果；新运行结果会写入 results/rerun，不会覆盖冻结结果。
