@@ -1,0 +1,10 @@
+﻿variant,status,results_csv_exists,preds_csv_exists,split_csv_exists,returncode,log_path
+baseline_orig_json,success,True,True,True,0,<PROJECT_ROOT>\outputs\tables\proxy_feature_audit\proxy_logs\baseline_orig_json.log
+drop_active_at_w4,success,True,True,True,0,<PROJECT_ROOT>\outputs\tables\proxy_feature_audit\proxy_logs\drop_active_at_w4.log
+drop_never_active_until_w4,success,True,True,True,0,<PROJECT_ROOT>\outputs\tables\proxy_feature_audit\proxy_logs\drop_never_active_until_w4.log
+drop_inactive_gap_days_w4,success,True,True,True,0,<PROJECT_ROOT>\outputs\tables\proxy_feature_audit\proxy_logs\drop_inactive_gap_days_w4.log
+drop_assess_submit_ratio_w4,success,True,True,True,0,<PROJECT_ROOT>\outputs\tables\proxy_feature_audit\proxy_logs\drop_assess_submit_ratio_w4.log
+drop_assess_due_but_missing_ratio_w4,success,True,True,True,0,<PROJECT_ROOT>\outputs\tables\proxy_feature_audit\proxy_logs\drop_assess_due_but_missing_ratio_w4.log
+drop_state_bundle,success,True,True,True,0,<PROJECT_ROOT>\outputs\tables\proxy_feature_audit\proxy_logs\drop_state_bundle.log
+drop_assess_behavior_bundle,success,True,True,True,0,<PROJECT_ROOT>\outputs\tables\proxy_feature_audit\proxy_logs\drop_assess_behavior_bundle.log
+drop_all_proxy_bundle,success,True,True,True,0,<PROJECT_ROOT>\outputs\tables\proxy_feature_audit\proxy_logs\drop_all_proxy_bundle.log

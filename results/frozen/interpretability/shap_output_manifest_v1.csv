@@ -1,0 +1,3 @@
+﻿tag,feature_count,global_importance_csv,global_bar_png,top_cases_csv
+w4_f3_lgbm,42,<PROJECT_ROOT>\outputs\tables\shap_global_importance_w4_f3_lgbm.csv,<PROJECT_ROOT>\outputs\figures\shap_global_bar_w4_f3_lgbm.png,<PROJECT_ROOT>\outputs\tables\shap_top_cases_w4_f3_lgbm.csv
+w4_f4_structural_only_lgbm,43,<PROJECT_ROOT>\outputs\tables\shap_global_importance_w4_f4_structural_only_lgbm.csv,<PROJECT_ROOT>\outputs\figures\shap_global_bar_w4_f4_structural_only_lgbm.png,<PROJECT_ROOT>\outputs\tables\shap_top_cases_w4_f4_structural_only_lgbm.csv

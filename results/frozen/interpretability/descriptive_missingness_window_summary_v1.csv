@@ -1,0 +1,7 @@
+﻿window,group,struct_missing_score_mean,behavior_missing_score_mean,has_behavior_missing_rate,assess_due_but_missing_cnt_mean,inactive_gap_days_mean,planned_resource_blank_cnt_mean
+w2,non_dropout,0.010826,-0.137998,0.756474,0.003699,5.886036,1.44694
+w2,dropout,-0.023917,0.30487,0.883123,0.002462,9.712584,2.479716
+w4,non_dropout,0.010826,-0.177783,0.621473,0.053751,8.4485,1.055444
+w4,dropout,-0.023917,0.392764,0.818826,0.086058,17.23336,2.20835
+w6,non_dropout,0.010826,-0.181117,0.567946,0.100726,10.909123,0.879173
+w6,dropout,-0.023917,0.400131,0.795589,0.120815,25.457562,2.125738

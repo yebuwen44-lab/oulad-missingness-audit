@@ -1,0 +1,23 @@
+﻿Model,Representation,Top fraction,Precision@k,Recall@k,Lift@k
+LightGBM,F1_median,10%,0.360,0.204,2.03
+LightGBM,F1_median,20%,0.315,0.355,1.77
+LightGBM,F1_native,10%,0.351,0.195,1.94
+LightGBM,F1_native,20%,0.313,0.352,1.76
+LightGBM,F2,10%,0.358,0.202,2.01
+LightGBM,F2,20%,0.314,0.352,1.76
+LightGBM,F3,10%,0.357,0.200,1.99
+LightGBM,F3,20%,0.314,0.351,1.75
+Logistic Regression,F1_median,10%,0.350,0.198,1.97
+Logistic Regression,F1_median,20%,0.313,0.354,1.76
+Logistic Regression,F2,10%,0.346,0.196,1.95
+Logistic Regression,F2,20%,0.312,0.351,1.75
+Logistic Regression,F3,10%,0.350,0.200,1.99
+Logistic Regression,F3,20%,0.310,0.348,1.74
+XGBoost,F1_median,10%,0.360,0.204,2.03
+XGBoost,F1_median,20%,0.318,0.360,1.80
+XGBoost,F1_native,10%,0.351,0.196,1.96
+XGBoost,F1_native,20%,0.311,0.351,1.75
+XGBoost,F2,10%,0.359,0.204,2.03
+XGBoost,F2,20%,0.317,0.359,1.79
+XGBoost,F3,10%,0.359,0.204,2.03
+XGBoost,F3,20%,0.317,0.356,1.78

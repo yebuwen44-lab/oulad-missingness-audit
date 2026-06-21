@@ -1,0 +1,81 @@
+﻿feature,mean_abs_shap
+studied_credits,0.1922367446806648
+assess_score_weighted_obs_w4,0.1891572659142644
+assess_score_mean_obs_w4,0.15934403439815728
+assess_due_cnt_w4,0.11330461246837514
+assess_late_submit_cnt_w4,0.10925395174176164
+code_module_BBB,0.1017034691767154
+days_since_last_click_w4,0.10142485576901468
+assess_due_but_missing_cnt_w4,0.09243626000083009
+highest_education_Lower Than A Level,0.08296929859791026
+inactive_gap_days_w4,0.08088558010565829
+vle_distinct_sites_w4,0.07654914105303881
+vle_active_days_w4,0.07618250410352678
+vle_total_clicks_w4,0.06303329814660732
+code_module_GGG,0.06201373258231965
+avg_clicks_per_active_day_w4,0.04771467239865862
+disability_N,0.04217912117101065
+vle_distinct_activity_types_w4,0.04100118915478387
+code_module_FFF,0.04082933619295214
+highest_education_A Level or Equivalent,0.03659859089192267
+module_presentation_length,0.03348244275387614
+gender_F,0.03054617677706915
+imd_missing_flag,0.027905391899226858
+age_band_35-55,0.02613033798652874
+region_East Anglian Region,0.02554614226609299
+assess_submit_ratio_w4,0.022929404299146028
+code_module_DDD,0.02226458090491454
+imd_band_70-80%,0.019349419759989075
+region_London Region,0.016294089224490025
+assess_submit_cnt_w4,0.015450587335485225
+imd_band_20-30%,0.0149932187011629
+assess_due_but_missing_ratio_w4,0.014258235152388107
+region_East Midlands Region,0.013775800468709942
+code_module_AAA,0.0132028195361594
+highest_education_HE Qualification,0.01260802280714965
+imd_band_90-100%,0.012153233264203481
+code_presentation_2013J,0.011797220592483714
+region_Scotland,0.010809465463154616
+consecutive_due_missing_cnt_w4,0.010794304918988662
+age_band_0-35,0.010399137462821785
+region_West Midlands Region,0.010294492319147435
+code_module_EEE,0.01024476329042659
+num_of_prev_attempts,0.010035500889612232
+code_presentation_2014B,0.009632036180556306
+imd_band_0-10%,0.009283234778205241
+region_Wales,0.009106547924554892
+imd_band_50-60%,0.008999293453685978
+planned_resource_blank_cnt_w4,0.008109871497071435
+imd_band_40-50%,0.007684297534071612
+code_presentation_2014J,0.0073642382405310625
+region_South West Region,0.007273992350434018
+imd_band_80-90%,0.0066035466120483695
+gender_M,0.0065271178914028324
+imd_band_60-70%,0.0063530561405066915
+forum_blank_flag_w4,0.006066476978404053
+region_North Western Region,0.005258423291015526
+imd_band_10-20,0.005126097142987082
+static_admin_missing_cnt,0.004799135458742803
+region_South Region,0.00471216413174792
+missing_tma_cnt_w4,0.004475373394173133
+region_Ireland,0.004404935355519845
+disability_Y,0.0041658819475012
+code_module_CCC,0.003951789151425109
+highest_education_No Formal quals,0.0038340003705386715
+code_presentation_2013B,0.003406286806545105
+quiz_blank_flag_w4,0.0033187873719920037
+region_Yorkshire Region,0.0032424068876883276
+region_South East Region,0.0030607474802004067
+imd_band_30-40%,0.002921254166333732
+assess_banked_cnt_w4,0.002868031344005025
+highest_education_Post Graduate Qualification,0.0016654200730260916
+region_North Region,0.0011895212539538389
+missing_cma_cnt_w4,0.0009026580518516552
+age_band_55<=,0.0005610752571563459
+resource_blank_flag_w4,0.0
+education_missing_flag,0.0
+region_missing_flag,0.0
+first_due_missing_day_w4,0.0
+never_active_until_w4,0.0
+no_vle_click_any_w4,0.0
+disability_missing_flag,0.0

@@ -1,0 +1,6 @@
+﻿window,feature_set,model,auprc_mean,auroc_mean,f1_mean,recall_mean
+w4,F0,xgboost,0.358723,0.688077,0.404765,0.589772
+w4,F1,xgboost,0.350274,0.681128,0.396053,0.584073
+w4,F2,xgboost,0.363152,0.690803,0.407294,0.59641
+w4,F3,xgboost,0.364334,0.689633,0.403436,0.580074
+w4,F4,xgboost,0.36583,0.68933,0.405944,0.588864
