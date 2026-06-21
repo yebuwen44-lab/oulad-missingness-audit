@@ -122,7 +122,14 @@ The SHAP workflow follows the archived protocol: the first GroupKFold split is u
 
 ## Licensing
 
-See `docs/LICENSES_AND_RELEASE_NOTES.md`. The OULAD-derived data retain the source dataset's CC BY 4.0 attribution requirement. A public software license for the newly written code should be selected by the authors before the repository is made public; MIT is recommended for straightforward reuse.
+This repository uses separate licenses for software and data:
+
+- Source code, batch files, PowerShell scripts, configuration files, and associated software documentation are released under the **MIT License**; see `LICENSE`.
+- Processed analytical data under `data/processed/` and machine-readable frozen result tables under `results/frozen/` are released under **CC BY 4.0**; see `DATA_LICENSE.md`.
+- The source OULAD dataset is also released under CC BY 4.0. Reuse must retain appropriate attribution to the original dataset creators and cite the dataset paper.
+- The manuscript text and publication-ready figures are not covered by these repository licenses unless explicitly stated otherwise.
+
+Additional scope and attribution notes are provided in `docs/LICENSES_AND_RELEASE_NOTES.md`.
 
 ## Contact
 
