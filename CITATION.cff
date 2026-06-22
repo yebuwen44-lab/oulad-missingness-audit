@@ -3,7 +3,8 @@ message: "If you use this package, please cite the associated manuscript and the
 title: "Auditing Missingness as Predictive Structure: Reproducibility Package"
 type: software
 version: 1.2.0
-date-released: 2026-06-21
+date-released: 2026-06-22
+license: MIT
 authors:
   - family-names: Ye
     given-names: Bowen
