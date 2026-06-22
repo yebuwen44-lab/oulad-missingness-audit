@@ -4,7 +4,7 @@ from __future__ import annotations
 14_descriptive_missingness_analysis_v1.py
 
 用途：
-1. 读取增强版主表 oulad_main_table_step4_enhanced_v1.csv
+1. 读取增强版主表 oulad_week4_analysis_table.csv
 2. 生成 structural missingness（结构性缺失，指由课程流程、资源开放节奏或登记机制决定，本来就可能为空的空白）
    与 behavioral missingness（行为性缺失，指学生本应发生但没有发生的学习行为形成的空白）
    的描述性统计
@@ -56,7 +56,7 @@ def first_behavioral_onset(row: pd.Series) -> str:
 
 
 def main() -> None:
-    input_path = PROCESSED_DIR / "oulad_main_table_step4_enhanced_v1.csv"
+    input_path = PROCESSED_DIR / "oulad_week4_analysis_table.csv"
     if not input_path.exists():
         raise FileNotFoundError(f"未找到输入主表：{input_path}")
 

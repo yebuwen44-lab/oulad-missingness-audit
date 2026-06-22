@@ -1,8 +1,8 @@
 $ErrorActionPreference = "Stop"
 
 $Root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
-$Data = Join-Path $Root "data\processed\oulad_main_table_step4_enhanced_v1.csv"
-$Config = Join-Path $Root "config\enhanced_feature_sets_v2.json"
+$Data = Join-Path $Root "data\processed\oulad_week4_analysis_table.csv"
+$Config = Join-Path $Root "config\feature_sets_week4.json"
 $Frozen = Join-Path $Root "frozen_values.json"
 $Mean = Join-Path $Root "results\frozen\groupkfold\enhanced_cv_mean_results_v2.csv"
 $Xgb = Join-Path $Root "results\frozen\groupkfold\xgboost_robustness_mean_results_w4_v1.csv"

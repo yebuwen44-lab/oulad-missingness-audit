@@ -17,8 +17,8 @@ from analysis_core import make_pipeline, representation_columns
 def parse_args():
     root = Path(__file__).resolve().parents[1]
     p = argparse.ArgumentParser()
-    p.add_argument("--input", type=Path, default=root / "data/processed/oulad_main_table_step4_enhanced_v1.csv")
-    p.add_argument("--config", type=Path, default=root / "config/enhanced_feature_sets_v2.json")
+    p.add_argument("--input", type=Path, default=root / "data/processed/oulad_week4_analysis_table.csv")
+    p.add_argument("--config", type=Path, default=root / "config/feature_sets_week4.json")
     p.add_argument("--output-dir", type=Path, default=root / "results/rerun/groupkfold")
     p.add_argument("--models", nargs="+", default=["lr", "lightgbm", "xgboost"], choices=["lr", "lightgbm", "xgboost"])
     p.add_argument(

@@ -4,8 +4,8 @@ from __future__ import annotations
 13_shap_explainability_v1.py
 
 用途：
-1. 读取增强版主表 oulad_main_table_step4_enhanced_v1.csv
-2. 读取增强版特征组配置 enhanced_feature_sets_v2.json
+1. 读取增强版主表 oulad_week4_analysis_table.csv
+2. 读取增强版特征组配置 feature_sets_week4.json
 3. 在 Week 4 条件下训练两个解释性主模型：
    - LightGBM + F3
    - LightGBM + F4_structural_only
@@ -228,8 +228,8 @@ def main() -> None:
     if not LIGHTGBM_AVAILABLE:
         raise ImportError("未检测到 lightgbm，请先运行：pip install lightgbm")
 
-    table_path = PROCESSED_DIR / "oulad_main_table_step4_enhanced_v1.csv"
-    config_path = CONFIG_DIR / "enhanced_feature_sets_v2.json"
+    table_path = PROCESSED_DIR / "oulad_week4_analysis_table.csv"
+    config_path = CONFIG_DIR / "feature_sets_week4.json"
 
     if not table_path.exists():
         raise FileNotFoundError(f"未找到增强版主表：{table_path}")
