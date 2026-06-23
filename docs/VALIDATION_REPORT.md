@@ -1,4 +1,4 @@
-# Reproducibility package audit report
+# Reproducibility package validation report
 
 ## Included and verified
 
@@ -25,11 +25,11 @@
 
 The complete multi-model five-fold and 22-group LOGO workflows were not re-executed in full during package assembly because they require many boosted-tree fits and are intentionally provided as long-running reproduction workflows. The manuscript values are preserved in `results/frozen/`; reruns write only to `results/rerun/` and do not overwrite the frozen record.
 
-## Release status and remaining action
+## Release status
 
-- The repository-authored software has been assigned the MIT License.
-- The processed analytical data and machine-readable frozen result tables are documented under CC BY 4.0 with attribution to OULAD.
-- `CITATION.cff` contains the confirmed authors, ORCID iDs, package version, and GitHub repository URL.
-- The package has completed independent technical review and is prepared for public release.
+- The repository-authored software is released under the MIT License.
+- The processed analytical data and machine-readable frozen result tables are released under CC BY 4.0 with attribution to OULAD.
+- `CITATION.cff` contains the confirmed authors, ORCID iDs, package version, repository URL, and the Zenodo all-versions DOI.
+- The repository is public and versioned releases are archived through Zenodo.
+- The all-versions DOI is https://doi.org/10.5281/zenodo.20792632.
 - Python bytecode caches have been removed, and a root `.gitignore` prevents regeneration from being committed.
-- The repository will be made public before submission, followed by a versioned GitHub release and Zenodo archival. The resulting DOI will be added to the manuscript and repository metadata.

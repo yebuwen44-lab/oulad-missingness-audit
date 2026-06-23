@@ -1,6 +1,6 @@
 # Auditing Missingness as Predictive Structure
 
-> **Package version: 1.2.0.** This package provides the processed analytical data, frozen numerical results, source code, configuration files, and integrity-verification utilities associated with the manuscript.
+> **Package version: 1.2.1.** This package provides the processed analytical data, frozen numerical results, source code, configuration files, and integrity-verification utilities associated with the manuscript.
 
 Reproducibility package for the manuscript:
 
@@ -131,11 +131,11 @@ This repository uses separate licenses for software and data:
 
 Additional scope and attribution notes are provided in `docs/LICENSES_AND_RELEASE_NOTES.md`.
 
-## Repository
+## Repository and archived releases
 
 Project repository: https://github.com/yebuwen44-lab/oulad-missingness-audit
 
-The package has completed independent technical review and is prepared for public release. A versioned GitHub release will be archived through Zenodo, and the persistent DOI will then be added to the repository and manuscript.
+Versioned releases are archived through Zenodo. The all-versions DOI is https://doi.org/10.5281/zenodo.20792632 and resolves to the latest archived release. The manuscript cites the fixed DOI of the exact release used for the reported analyses.
 
 ## Contact
 
